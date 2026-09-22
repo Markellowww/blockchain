@@ -1,0 +1,19 @@
+{
+  "name": "task_2",
+  "version": "1.0.0",
+  "description": "Приложение, которое: 1. Генерирует приватный и публичный ключ для Bitcoin через secp256k1. 2. Сохранять ключ в файл на диске. 3. Читает ключ из файла. 4. Генерирует Legacy и SegWit адреса на основе публичного ключа.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bip32": "^5.0.1",
+    "bitcoinjs-lib": "^7.0.2",
+    "ecpair": "^3.0.2",
+    "tiny-secp256k1": "^2.2.4"
+  }
+}
