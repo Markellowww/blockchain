@@ -1,0 +1,18 @@
+{
+  "name": "task_1",
+  "version": "1.0.0",
+  "description": "Консольное приложение, получающее с помощью публичного веб-сервиса баланс адреса в сети testnet4.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bitcoinjs-lib": "^7.0.2",
+    "ecpair": "^3.0.2",
+    "tiny-secp256k1": "^2.2.4"
+  }
+}
