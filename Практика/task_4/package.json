@@ -1,0 +1,20 @@
+{
+  "name": "task_4",
+  "version": "1.0.0",
+  "description": "1. Приложение, которое: - Имитирует ключ некастодиального кошелька их формата xpriv или seed-фразы - Перебирает адреса в сети testnet4 для кошелька - Находит ключ от адреса, с которого можно потратить деньги",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bip32": "^5.0.1",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^7.0.2",
+    "ecpair": "^3.0.2",
+    "tiny-secp256k1": "^2.2.4"
+  }
+}
